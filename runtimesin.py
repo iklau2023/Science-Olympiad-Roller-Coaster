@@ -5,4 +5,3 @@ v= sin*18.2
 t=364.5/v
 t= round(t,2)
 print(f'Your run time is {t} seconds')
-#20-40 for comp
