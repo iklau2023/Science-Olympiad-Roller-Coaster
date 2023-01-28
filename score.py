@@ -10,8 +10,11 @@ elif g >= 5:
 ls= l*6
 rt = float(input('What is the given run time in seconds:'))
 t= int(input('What is your time:'))
-ts= t*5
 if t>rt:
-    ts= ts*-5
+    ts= rt*5
+    ots= (t-rt)*-5
+    ts=ts+ots
+else:
+    ts=t*5
 s= hs+gs+ls+ts
 print(f'Your final score is {s}')
