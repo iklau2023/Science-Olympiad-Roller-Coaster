@@ -9,7 +9,7 @@ elif g >= 5:
     l=float(input('How tall is your loop in cm:'))
 ls= l*6
 rt = float(input('What is the given run time in seconds:'))
-t= int(input('What is your time:'))
+t= float(input('What is your time:'))
 if t>rt:
     ts= rt*5
     ots= (t-rt)*-5
